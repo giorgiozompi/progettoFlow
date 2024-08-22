@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Hello World with PrimeFaces</title>
+</h:head>
+
+<h:body>
+    <h:form>
+        <p:growl id="growl" showDetail="true" />
+
+        <p:inputText id="name" value="#{helloBean.name}" placeholder="Enter your name" />
+
+        <p:commandButton value="Say Hello" action="#{helloBean.sayHello}" update="growl" />
+    </h:form>
+</h:body>
+</html>

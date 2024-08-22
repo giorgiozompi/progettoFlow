@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:40 +0200] "GET /hello HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:46 +0200] "GET /demo HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:46 +0200] "GET /demo/ HTTP/1.1" 200 2985 http-bio-8080-exec-3 693
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:46 +0200] "GET /demo/javax.faces.resource/primeicons/primeicons.css.xhtml;jsessionid=5C79CD753FE29A29C95B3C4E2BDD239B?ln=primefaces&v=12.0.0 HTTP/1.1" 200 11175 http-bio-8080-exec-4 56
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:47 +0200] "GET /demo/javax.faces.resource/core.js.xhtml;jsessionid=5C79CD753FE29A29C95B3C4E2BDD239B?ln=primefaces&v=12.0.0 HTTP/1.1" 200 89155 http-bio-8080-exec-6 12
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:47 +0200] "GET /demo/javax.faces.resource/jquery/jquery-plugins.js.xhtml;jsessionid=5C79CD753FE29A29C95B3C4E2BDD239B?ln=primefaces&v=12.0.0 HTTP/1.1" 200 146589 http-bio-8080-exec-7 12
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:47 +0200] "GET /demo/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=5C79CD753FE29A29C95B3C4E2BDD239B?ln=primefaces&v=12.0.0 HTTP/1.1" 200 89756 http-bio-8080-exec-8 19
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:47 +0200] "GET /demo/javax.faces.resource/components.js.xhtml;jsessionid=5C79CD753FE29A29C95B3C4E2BDD239B?ln=primefaces&v=12.0.0 HTTP/1.1" 200 492154 http-bio-8080-exec-10 60
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:47 +0200] "GET /demo/javax.faces.resource/components.css.xhtml;jsessionid=5C79CD753FE29A29C95B3C4E2BDD239B?ln=primefaces&v=12.0.0 HTTP/1.1" 200 108027 http-bio-8080-exec-9 328
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:47 +0200] "GET /demo/javax.faces.resource/theme.css.xhtml;jsessionid=5C79CD753FE29A29C95B3C4E2BDD239B?ln=primefaces-nova-light&v=12.0.0 HTTP/1.1" 200 197888 http-bio-8080-exec-5 482
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:47 +0200] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:57:56 +0200] "POST /demo/index.xhtml;jsessionid=5C79CD753FE29A29C95B3C4E2BDD239B HTTP/1.1" 200 556 http-bio-8080-exec-2 133
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:09:58:23 +0200] "POST /demo/index.xhtml;jsessionid=5C79CD753FE29A29C95B3C4E2BDD239B HTTP/1.1" 200 564 http-bio-8080-exec-2 28
